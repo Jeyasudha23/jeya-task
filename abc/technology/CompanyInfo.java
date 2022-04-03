@@ -12,6 +12,11 @@ public class CompanyInfo {
 		System.out.println("1/22 PQR colony");
 	}
 	
+	public void companyRank() {
+		System.out.println("Rank is x");
+	}
+	
+	
 	//main method creation
 	public static void main(String []args) {
 		//object creation
@@ -19,5 +24,6 @@ public class CompanyInfo {
 		efg.companyName();
 		efg.companyId();
 		efg.companyAddress();
+	     efg.companyRank();
 		}
 }
